@@ -1,0 +1,179 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Old Standard TT', serif; */
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-page {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 98.09%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 56px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-text {
+    margin-left: 16px;
+}
+
+.banderogus-container {
+    background: #FFF;
+    padding: 60px 56px;
+    align-self: center;
+}
+
+.banderogus-greeting {
+    color: #1B1D1F;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.banderogus-start-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+}
+
+.banderogus-title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.banderogus-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banderogus-launch {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.banderogus-image {
+    align-self: flex-end;
+}
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.facts {
+    width: 1170px;
+    margin: 0 auto;
+    display: block;
+}
+
+.facts-row {
+    padding: 52px 95px 24px 95px;
+    text-align: center;
+}
+
+.banderogus-subtitle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 16px;
+}
+
+.pro-banderogusa {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 16px;
+}
+
+.banderogus-container-facts {
+    justify-content: center;
+    padding: 24px 95px 72px 95px;
+    display: flex;
+}
+
+.banderogus-fact {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 12px;
+}
+
+.banderogus-descr-fact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 32px;
+}
+
+.wrapper-footer {
+    width: 1170px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    background: linear-gradient(270deg, #C7EAFF 0%, #FCFEFF 98.09%);
+    padding: 72px 95px;
+    text-align: center;
+}
+
+
+
+/* стили для модального окна-анимашки */
+.wrapper-modal2 {
+    width: 1170px;
+    margin: 0 auto; 
+}
+
+.banderogus-polit {
+    background: linear-gradient(2.11deg, #F7F05B 1.88%, #92D3F8 94.8%);
+    width: 558px;
+    height: 352px;
+    text-align: center;   
+    margin: auto;
+}
+
+.banderogus-polit-text {
+    font-family: 'Old Standard TT';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FF6B0A;
+    padding: 52px 72px 8px 52px;
+}
