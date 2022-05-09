@@ -101,6 +101,11 @@ header {
     text-align: center;
 }
 
+.banderogus-container-facts {
+    justify-content: center;
+    padding: 24px 95px 72px 95px;
+    display: flex;
+}
 .banderogus-subtitle {
     font-weight: 600;
     font-size: 48px;
@@ -116,12 +121,6 @@ header {
     color: #1B1D1F;
     width: 875px;
     text-align: center;
-}
-
-.banderogus-container-facts {
-    justify-content: center;
-    padding: 24px 95px 72px 95px;
-    display: flex;
 }
 
 .banderogus-fact {
@@ -141,20 +140,23 @@ header {
 }
 
 .footer-bgd {
-    width: 1170px;
+    /* width: 1170px; */
     background: linear-gradient(270deg, #C7EAFF 0%, #FCFEFF 98.09%);
     padding: 72px 0;
     margin-bottom: 72px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .victory-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        width: 1170px;
+        margin: 0 auto;
+        display: block;        
 }
+
 
 /* стили для первой модалки */
 .modal-bgd {
@@ -169,7 +171,7 @@ header {
     justify-content: center;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .modal-form-container {
