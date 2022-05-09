@@ -153,6 +153,7 @@ header {
 .victory-footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* стили для первой модалки */
