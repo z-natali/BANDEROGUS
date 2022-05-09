@@ -12,10 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Old+Standard+TT:wght@700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <section class="main-page">
       <div class="wrapper">
@@ -31,15 +31,12 @@
             <h3 class="banderogus-greeting">Доброго вечора, ми з України</h3>
             <h2 class="banderogus-start-text">На старт. Увага. Полетіли!</h2>
             <h1 class="banderogus-title">Бандерогусь</h1>
-
             <p class="banderogus-descr">
               Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню
               Батьківщину та підтримую позитивний дух народу. Слава Україні!
             </p>
-
-            <button class="banderogus-launch">Запустити гуся</button>
+            <button class="banderogus-launch" id="open-form-modal-btn">Запустити гуся</button>
           </div>
-
           <img src="./img/gus.svg" alt="banderogus" class="banderogus-image" />
         </div>
       </div>
@@ -48,7 +45,7 @@
     <section>
       <div class="facts">
         <div class="facts-row">
-          <img src="./img/trezub.svg" alt="trezub" width="32px" height="52px" />
+          <img src="./img/trezub.svg" alt="ukr logo" width="32px" height="52px" />
           <h2 class="banderogus-subtitle">Цікаві факти про бандерогусей</h2>
           <p class="pro-banderogusa">
             Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати
@@ -56,7 +53,6 @@
             високочастотне шипіння та розмахування крилами
           </p>
         </div>
-
         <ul class="banderogus-container-facts">
           <li>
             <img src="./img/gus1.svg" alt="gus1" width="374px" />
@@ -65,7 +61,6 @@
               Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки
             </p>
           </li>
-
           <li>
             <img src="./img/gus2.svg" alt="gus2" width="374px" />
             <h3 class="banderogus-fact">Очі-тепловізори</h3>
@@ -73,7 +68,6 @@
               Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару
             </p>
           </li>
-
           <li>
             <img src="./img/gus3.svg" alt="gus3" width="374px" />
             <h3 class="banderogus-fact">Байракрила</h3>
@@ -86,15 +80,45 @@
       </div>
     </section>
 
-    <div class="wrapper-footer">
-      <footer>
-        <img src="./img/trezub.svg" alt="trezub" width="32px" height="52px" />
+    <footer class="victory-footer">
+      <div class="footer-bgd">
+        <img src="./img/trezub.svg" alt="ukr logo" width="32px" height="52px" />
         <h2 class="banderogus-subtitle">Перемога завжди за нами!</h2>
         <p class="pro-banderogusa">
           Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу
           посмішку у часи, коли вона так необхідна
         </p>
-      </footer>
+      </div>
+    </footer>
+
+    <div class="modal-bgd" id="form-modal">
+      <div class="modal-form-container">
+        <button class="close-btn">x</button>
+        <form action="#" class="modal-form" data-natlify="true" id="form">
+          <img src="./img/trezub.svg" alt="ukr-logo" />
+          <h2 class="modal-form-title">Поділися, будь ласка, поштою</h2>
+          <p class="modal-form-descr">та запиши гуся до бандерозагону</p>
+          <div class="modal-form-field">
+            <lable for="user-name" class="modal-field-name">Ім'я</lable>
+            <input type="text" class="modal-field-input" id="user-name" name="Ім'я" />
+          </div>
+          <div class="modal-form-field">
+            <lable for="user-email" class="modal-field-name">Email</lable>
+            <input type="emale" class="modal-field-input" id="user-email" name="Email" />
+          </div>
+          <button class="modal-form-btn" id="launch-btn">Запустити гуся</button>
+        </form>
+      </div>
     </div>
+
+    <div class="modal-bgd" id="success-modal">
+      <div class="modal-form2">
+        <button class="close-btn">x</button>
+        <h2 class="modal-form-title2">Політ вдався! Стережіться, орки!</h2>
+        <img src="./img/gus_polit.svg" alt="gus v politi" />
+      </div>
+    </div>
+
+    <script src="./scripts/form.js"></script>
   </body>
 </html>
